@@ -16,7 +16,7 @@
         }
         return $s;
        }
-       $r = soma(3,5,2);
+       $r = soma(3,5,2, 5, 14, 43);
        echo "A soma dos valores é $r";
     ?>
 </body>
