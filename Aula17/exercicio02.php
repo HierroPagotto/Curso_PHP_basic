@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+<<<<<<< HEAD
         $frase = "Estou aprendendo PHP";
         $pos = strpos($frase, "PHP");
         echo "A string foi encontrada na posição $pos";
@@ -28,6 +29,18 @@
         /* vai receber uma sub string (começo, fim) */
 
         
+=======
+        $nome = str_repeat("Hierro", 5);
+        print("$nome");
+        /* serve para repetir a string */
+
+        $frase = "Gosto de estudar Matematica";
+        $novafrase = str_replace("Matematica","PHP", $frase );
+        echo "$novafrase";
+        /* substitiu oque voce quer na frase */
+        /* para não ter problema com maiusculo e minusculo, coloque
+        str_ireplace (adicionar o i na frente do replace) ele ignora essa formatação */
+>>>>>>> 6d04dfce3ca01a420ce39361663b0c3de6d93312
     ?>
 </body>
 </html> 
