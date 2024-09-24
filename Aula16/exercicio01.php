@@ -11,8 +11,8 @@
         $preco = 4.5;
         echo "O $prod custa R$ ". number_format($preco,2); /* Jeito que fazia antes, é mais demorado. */
         echo "<br/>";
-        printf ("O %s custa R$ %.2f", $prod, $preco);
-        echo "<br/>";
+        printf ("O %s custa R$ %.2f", $prod, $preco);/* %s para string e %f para numero real */
+        echo "<br/>";/* % para numero decimal (positivo e negativ)  %u não mostra o sinal(-/+) do numero*/
         $v[0] = 4;
         $v[1] = 8;
         $v[2] = 12;
