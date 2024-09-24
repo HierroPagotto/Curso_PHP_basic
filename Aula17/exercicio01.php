@@ -7,35 +7,6 @@
 </head>
 <body>
     <?php
-<<<<<<< HEAD
-     $nome = "Hierro Pagotto";
-     $nome1 = strtolower($nome);/* Deixa tudo em minusculo */
-     echo "Seu nome é $nome1 ";
-
-     $nome = "Hierro Pagotto";
-     $nome1 = strtoupper($nome);/* Deixa tudo em maiusculo */
-     echo "<br/>Seu nome é $nome1 ";
-
-     echo "<br/>";
-
-     $n = "hierro pagotto";
-     $n2 = ucfirst($n);/* Deixa a primeira letra em maiusculo */
-     echo "$n2";
-
-     $no = "hieRro pAgoTto";
-     $no2 = ucfirst(strtolower($no));/* juntei as duas funcoes para corrigir o nome */
-     echo "<br/>$no2";
-
-     $nom = "hierro pagotto";
-     $nom2 = ucwords($nom);/* altera a primeira letra de toda paravra para maiusculo */
-     echo "<br/>$nom2";
-
-     $rev = "hierro pagotto";
-     echo "<br/>";
-     print(strrev($rev)); /* inverte o texto */
-
-     
-=======
         $frase = "Estou aprendendo PHP";
         $pos = strpos($frase, "PHP");
         echo "A string foi encontrada na posição $pos";
@@ -57,7 +28,6 @@
         /* vai receber uma sub string (começo, fim) */
 
         
->>>>>>> 6d04dfce3ca01a420ce39361663b0c3de6d93312
     ?>
 </body>
 </html> 
